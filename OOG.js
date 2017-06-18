@@ -165,7 +165,7 @@ var D2Bot = {
 			args: []
 		};
 
-        sendCopyData(null, this.handle, 0, JSON.stringify(obj));
+        	sendCopyData(null, this.handle, 0, JSON.stringify(obj));
 	},
 
 	setProfile: function(account, password, character, difficulty, realm, infotag) {
@@ -175,7 +175,7 @@ var D2Bot = {
 			args: [account, password, character, difficulty, realm, infotag]
 		};
 
-        sendCopyData(null, this.handle, 0, JSON.stringify(obj));
+        	sendCopyData(null, this.handle, 0, JSON.stringify(obj));
 	},
 
 	restart: function (keySwap) {
